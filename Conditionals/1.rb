@@ -1,7 +1,6 @@
-# It will print 'Breakfast'
+# In the code below, sun is randomly assigned as 'visible' or 'hidden'. Write an if statement that prints "The sun is so bright!" if sun equals 'visible'.
 
-def meal
-  return 'Breakfast'
-end
 
-puts meal
+sun = ['visible', 'hidden'].sample
+
+puts "The sun is so bright!" if sun == 'visible'

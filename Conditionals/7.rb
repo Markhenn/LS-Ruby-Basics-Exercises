@@ -1,9 +1,20 @@
-# prints 1 2 3 4 5
+# Convert the following case statement to an if statement.
 
-def count_sheep
-  5.times do |sheep|
-    puts sheep
-  end
+stoplight = ['green', 'yellow', 'red'].sample
+
+case stoplight
+when 'green'
+  puts 'Go!'
+when 'yellow'
+  puts 'Slow down!'
+else
+  puts 'Stop!'
+end 
+
+if stoplight == 'green'
+  puts 'Go!'
+elsif stoplight == 'yellow'
+  puts 'Slow down!'
+else
+  puts 'Stop!'
 end
-
-puts count_sheep

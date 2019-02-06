@@ -1,15 +1,5 @@
-# Write a method named greet that invokes the following methods:
+# In the code below, boolean is randomly assigned as true or false. Write a ternary operator that prints "I'm true!" if boolean equals true and prints "I'm false!" if boolean equals false.
 
-def hello
-  'Hello'
-end
+boolean = [true, false].sample
 
-def world
-  'World'
-end
-
-def greet
-  hello + " " + world
-end
-
-puts greet
+boolean ? puts("I'm true!") : puts("I'm false!")

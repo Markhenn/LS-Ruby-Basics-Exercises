@@ -1,8 +1,9 @@
-# prints 'Dinner' newlin nil
+number = 7
 
-def meal
-  'Dinner'
-  puts 'Dinner'
+if number
+  puts "My favorite number is #{number}."
+else
+  puts "I don't have a favorite number."
 end
 
-p meal
+# prints "My favorite number is 7."
